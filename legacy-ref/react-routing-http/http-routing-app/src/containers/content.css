@@ -1,0 +1,48 @@
+.Blog ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.Blog li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.Blog a {
+    text-decoration: none;
+    color: black;
+}
+
+.Blog a:hover,
+.Blog a:active,
+.Blog a.active {
+    color: #fa923f;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  

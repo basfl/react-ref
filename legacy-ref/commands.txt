@@ -1,0 +1,13 @@
+https://github.com/facebook/create-react-app
+npm install create-react-app -g
+create-react-app {name}
+npm start
+npm install --save radium
+npm install --save prop-type
+
+----------------------
+npm run eject
+importLoaders: 1,
+modules:true,
+localIdentName:'[name]__[local]__[hash:base64:5]' 
+------------------------
